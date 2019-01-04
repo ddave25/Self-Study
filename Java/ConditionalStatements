@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+
+/**
+ * @author Darshan Dave
+ *
+ */
+import java.util.Scanner;
+
+public class ConditionalStatement {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		int number;
+		
+		System.out.print("Enter integer: ");
+		number = input.nextInt();
+		
+		if (number != 7)
+			System.out.println("The variable number is not equal to 7.");
+		else if (number == 7)
+			System.out.println("The variable number is equal to 7.");
+
+	}
+
+}
